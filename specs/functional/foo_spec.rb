@@ -1,5 +1,5 @@
 require File.join(File.dirname(__FILE__), "spec_config")
-require File.join($ROOT, "myapp")
+require "myapp"
 
 describe "/foo" do
   it "shows 'heippa'" do

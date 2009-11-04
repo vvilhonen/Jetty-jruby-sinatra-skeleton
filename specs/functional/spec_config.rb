@@ -5,6 +5,9 @@ require 'webrat'
 require 'webrat/sinatra'
 require 'mocha'
 
+$: << $ROOT
+$: << File.join($ROOT, "lib")
+
 module SinatraApp
   def app
     Sinatra::Application
