@@ -21,6 +21,6 @@ Run specs
 
   $ jruby -S rake spec
 
-For testing there are rspec configured with mocha, rack/test and webrat
+For testing there is rspec configured with mocha, rack/test and webrat
 
 
