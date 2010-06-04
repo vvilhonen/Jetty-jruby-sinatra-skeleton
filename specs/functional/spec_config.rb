@@ -2,7 +2,6 @@ $ROOT = File.expand_path(File.join(File.dirname(__FILE__), "..", ".."))
 require 'rubygems'
 require 'rack/test'
 require 'webrat'
-require 'webrat/sinatra'
 require 'mocha'
 
 $: << $ROOT
